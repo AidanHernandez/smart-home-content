@@ -197,3 +197,25 @@ section#buy {
 .now{
     margin-right: 50px;
 }
+
+.similar{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    margin-top: 30px;
+}
+
+
+section#similar {
+    height: 13vh;
+    width:100%;
+    background-color: rgba(250, 245, 240, 1);
+}
+
+.similar_houses{
+    display: inline-flex;
+    color: #4988BF;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    font-size: 40px;
+}
