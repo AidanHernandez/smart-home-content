@@ -4,6 +4,7 @@ body{
     font-family: "Kaisei HarunoUmi", serif;
     font-weight: 400;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 /* modify images to fit thier parent container and not overflow */
@@ -268,33 +269,33 @@ article#cards {
 }
 
 footer{
-    background-color: #734A32;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     margin-top: 10vh;
+    transform: translate(-8px,16px);
+    margin-right: 0;
+    background-color: #734A32;
+}
+
+footer#end {
+    height: 15vh;
+    width: 110%;
     
 }
 
-section#end {
-    height: 14vh;
-    width: 100%;
-}
-
-nav{
+.nav{
+    text-decoration: none;
     flex-flow: column nowrap;
+    align-self: flex-start;
     width: 5%;
     margin-top: 10px;
     margin-bottom: 3px;
     font-size: 20px;
+    color: white;
 }
 
-a{
-    text-decoration: none;
-    color:white;
-    justify-content: space-between;
 
-}
 
 .tm{
     width: 100%;
@@ -302,5 +303,7 @@ a{
     align-self: flex-end;
     justify-content: flex-end;
     color: white;
-    margin-bottom: 0px;
+    margin-bottom: 0vh;
+    margin-right: 10vw;
+    margin-top: 0;
 }

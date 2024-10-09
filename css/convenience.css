@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap');
+
+body{
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+/* modify images to fit thier parent container and not overflow */
+img { 
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    transform: translate(-1vw,-1vh);
+    display: flex;
+    flex-flow: column nowrap;
+    /* z-index: 999; */
+    
+}
+
+header#navbar {
+    height: 21.5%;
+    width:105%;
+}
+
+header{
+    display: inline-flex;
+    background-color: rgba(250, 245, 240, 1);
+    width: 100%;
+    height: 20%;
+    color: #402309;
+}
+
+.title{
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
+    width: fit-content;
+    justify-content: center;
+    align-self: center;
+    font-size: 45px;
+}
+
+nav{
+    width: fit-content;
+    justify-content: center;
+    align-self: center;
+    font-size: 25px;
+}
+
+a{
+    color: #402309;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.line{
+    width: 100%;
+    background-color: #402309;
+    height: 1vh;
+    align-content: flex-end;
+    margin-top: 0vh;
+    z-index: 999;
+}
+
+.selected{
+    color: #593326;
+    font-weight: 1000;
+}
+
+.opener_img {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section#opener_img {
+    height: 65vh;
+    width:100%;
+    justify-content: center;
+    align-self: center;
+}
+
+.content{
+    display: inline-flex;
+    width: 75%;
+    height: 100%;
+    background-image: url(../img/home/convience_home.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    border-radius: 12px;
+}
+
+.img_title{
+    font-size: 37px;
+    background-color: hsl(0, 1%, 67%, 0.65);
+    border-radius: 12px;
+    height: fit-content;
+}
+
+
+
+.cards {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+
+article#cards {
+    height: 460vh;
+    width:100%;
+}
+
+section[class*="card"]{
+    width: 28vw;
+    background-color: #593326;
+    color: white;
+    overflow-wrap: normal;
+    font-size: 20px;
+    margin-top: 10vh;
+    height: 70vh;
+}
+
+h3{
+    display: inline-flex;
+    width: 100%;
+    font-size: 30px;    
+    /* margin-left: 35%; */
+    justify-content: center;
+}
+
+p{
+    width:90%;
+    margin-left: 5%;
+}
+
+.div_img{
+    background-image: url(../img/convience/line_across.png);
+    margin-top: 10vh;
+    height: 20vh;
+    width: 98.99%;
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
+.div_img2{
+    background-image: url(../img/convience/line_across2.png);
+    margin-top: 10vh;
+    height: 20vh;
+    width: 98.99%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 10vh;
+    transform: translate(-8px,16px);
+    margin-right: 0;
+    background-color: #734A32;
+}
+
+footer#end {
+    height: 15vh;
+    width: 110%;
+    
+}
+
+.nav{
+    flex-flow: column nowrap;
+    align-self: flex-start;
+    width: 5%;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.tm{
+    width: 100%;
+    display: inline-flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    color: white;
+    margin-bottom: 0vh;
+    margin-right: 10vw;
+    margin-top: 0;
+}
