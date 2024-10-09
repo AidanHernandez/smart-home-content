@@ -110,8 +110,13 @@ h1{
     background-color: hsl(0, 1%, 67%, 0.65);
     border-radius: 12px;
     display: inline-flex;
-    align-self: flex-end;
+    align-self: flex-start;
     justify-content: center;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 9vh;
 }
 
 .subhead-content.safety:hover + .subhead-content.cleaning { 
