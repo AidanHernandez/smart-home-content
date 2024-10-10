@@ -73,6 +73,10 @@ a{
     font-weight: 1000;
 }
 
+.selected:hover, .convenience_nav:hover, .safety_nav:hover, .home_nav:hover{
+    text-decoration: underline;
+}
+
 .opener_cover {
     display: flex;
     flex-flow: row nowrap;
@@ -172,13 +176,13 @@ footer{
     flex-direction: column;
     flex-wrap: nowrap;
     margin-top: 10vh;
-    transform: translate(-8px,17px);
+    transform: translate(-8px,18px);
     margin-right: 0;
     background-color: #734A32;
 }
 
 footer#end {
-    height: 15vh;
+    height: 16vh;
     width: 110%;
     
 }

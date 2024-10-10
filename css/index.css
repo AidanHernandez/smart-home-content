@@ -79,6 +79,7 @@ h1{
 .subhead-content.cleaning {
     background-image: url(../img/home/Cleaner_home.png);
     border-radius: 0 12px 12px 0;
+    
 }
 
 .invisibleLink2 {
@@ -92,8 +93,11 @@ h1{
 .subhead-content.convenience {
     background-image: url(../img/home/convience_home.png);
     border-radius: 0 12px 12px 0;
-
+    
 }
+
+
+
 
 .invisibleLink3 {
     display: flex;
@@ -122,6 +126,7 @@ h4{
 /* Safety button increase */
 .subhead-content.safety:hover + .subhead-content.cleaning { 
     height: 0%;
+    transition-duration: 1s; 
     font-size: 0px;
 }
 
@@ -131,18 +136,25 @@ h4{
 
 .subhead-content.safety:hover + .subhead-content.cleaning + .subhead-content.convenience { 
     height:  0%;
+    transition-duration: 1s; 
     font-size: 0px;
 }
 
 .subhead-content.safety:hover + .subhead-content.cleaning + .subhead-content.convenience .convenience{ 
-    height:  0%;
     font-size: 0px;
 }
 
 .subhead-content.safety:hover {
+    transition: height 1s;
     margin-bottom: 0px;
     height: 99.2%;
     flex-shrink: 0;
+    
+}
+
+:not(.subhead-content.safety:hover){
+    transition-duration: 1s;
+    height: calc(60/3);
 }
 
 .invisibleLink:hover{
@@ -154,25 +166,36 @@ h4{
 }
 
 /* Cleaning button increase */
-.subhead-content.cleaning:hover + .subhead-content.convenience { 
-    height: 0%;
-    font-size: 0px;
-}
-
-.subhead-content.safety:has(+ .subhead-content.cleaning:hover){
-    height: 0px;
-}
-
-
 
 .subhead-content.cleaning:hover {
     position: relative;
     top:-5px;
-    margin-bottom: 0;
-    margin-top: 0px;
+    /* margin-bottom: 0;
+    margin-top: 0px; */
     height: 99.2%;
     flex-shrink: 0;
+    /* transition-property: height;*/
+    transition-duration: 1s; 
 }
+
+:not(.subhead-content.cleaning:hover){
+    transition-duration: 1s;
+    height: calc(60/3);
+}
+
+
+.subhead-content.cleaning:hover + .subhead-content.convenience { 
+    height: 0%;
+    transition-duration: 1s; 
+}
+
+.subhead-content.safety:has(+ .subhead-content.cleaning:hover){
+    height: 0px;
+    transition-duration: 1s; 
+}
+
+
+
 
 .subhead-content.cleaning:hover > .invisibleLink2{
     display: flex;
@@ -195,10 +218,12 @@ h4{
 
 .subhead-content.cleaning:has(+ .subhead-content.convenience:hover){
     height: 0px;
+    transition-duration: 1s; 
 }
 
 .subhead-content.safety:has(~ .subhead-content.convenience:hover){
     height: 0px;
+    transition-duration: 1s; 
 }
 
 .subhead-content.cleaning:has(+ .subhead-content.convenience:hover) .cleaning{
@@ -210,15 +235,21 @@ h4{
 }
 
 .subhead-content.convenience:hover {
+    
     position: relative;
     top:-10px;
     margin-bottom: 0;
     margin-top: 0px;
     height: 99.2%;
-    
-    align-items: flex-start;
     flex-shrink: 0;
+    transition-duration: 1s; 
 }
+
+:not(.subhead-content.convenience:hover){
+    transition-duration: 1s;
+    height: calc(60/3);
+}
+
 
 .subhead-content.convenience:hover > .invisibleLink3{
     display: flex;
@@ -321,6 +352,12 @@ button{
     font-size: 40px;
 }
 
+.learn:hover, .now:hover{
+    background-color: #402309;
+    color: rgb(242, 220, 194);
+}
+
+
 .now{
     margin-right: 50px;
 }
@@ -387,18 +424,41 @@ article#cards {
     margin-top: 5%;
 }
 
+.card_learn:hover{
+    background-color: #205A8C;
+    color: rgba(231, 197, 177, 1);
+
+}
+
+.newsletter{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+section#newsletter{
+    height: 80vh;
+    width:80%;
+    background-image: url(../img/home/newsletterimg-ezgif.com-crop.gif);
+    background-size: 100% 100%;
+}
+
+
+
+
 footer{
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-top: 10vh;
     transform: translate(-8px,16px);
     margin-right: 0;
     background-color: #734A32;
 }
 
 footer#end {
-    height: 15vh;
+    height: 18vh;
     width: 110%;
     
 }

@@ -73,6 +73,10 @@ a{
     font-weight: 1000;
 }
 
+.selected:hover, .safety_nav:hover, .cleaning_nav:hover, .home_nav:hover{
+    text-decoration: underline;
+}
+
 .opener_img {
     display: flex;
     flex-flow: row nowrap;
@@ -152,6 +156,8 @@ p{
     width: 98.99%;
     background-size: cover;
     background-position: 50% 60%;
+
+    
 }
 
 .div_img2{
@@ -174,7 +180,7 @@ footer{
 }
 
 footer#end {
-    height: 15vh;
+    height: 16vh;
     width: 110%;
     
 }
