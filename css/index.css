@@ -32,7 +32,7 @@ header#home {
 
 .header-left {
     width: 60%;
-    background-image: url(../img/future_house.png);
+    background-image: url(../img/future_house.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 12px 0px 0px 12px;
@@ -62,7 +62,7 @@ h1{
 }
 
 .subhead-content.safety {
-    background-image: url(../img/home/safety_home_enhanced.png);
+    background-image: url(../img/home/safety_home_enhanced.jpg);
     border-radius: 0 12px 12px 0;
     
 }
@@ -78,7 +78,7 @@ h1{
 }
 
 .subhead-content.cleaning {
-    background-image: url(../img/home/Cleaner_home.png);
+    background-image: url(../img/home/Cleaner_home.jpg);
     border-radius: 0 12px 12px 0;
     
 }
@@ -92,7 +92,7 @@ h1{
 }
 
 .subhead-content.convenience {
-    background-image: url(../img/home/convience_home.png);
+    background-image: url(../img/home/convience_home.jpg);
     border-radius: 0 12px 12px 0;
     
 }
@@ -322,7 +322,7 @@ header#price {
 section#buy {
     height: 17vh;
     width:100%;
-    background-image: url(../img/home/Buy_home.png);
+    background-image: url(../img/home/Buy_home.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -488,7 +488,7 @@ h6{
 
 .signup:hover{
     color:white;
-    background-image: url(../img/Untitled-2.png);
+    background-image: url(../img/Untitled-2.jpg);
     border: 5px solid white;
     animation: myfirst 1s;
     
