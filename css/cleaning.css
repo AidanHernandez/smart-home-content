@@ -95,7 +95,7 @@ section#opener_cover {
     display: inline-flex;
     width: 75%;
     height: 100%;
-    background-image: url(../img/home/Cleaner_home.png);
+    background-image: url(../img/home/Cleaner_home.jpg);
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -146,23 +146,23 @@ section[class *= "column"]{
 }
 
 .img{
-    background-image: url(../img/cleaning/wedge.png);
+    background-image: url(../img/cleaning/wedge.jpg);
 }
 
 .img2{
-    background-image: url(../img/cleaning/dish_washer.png);
+    background-image: url(../img/cleaning/dish_washer.jpg);
 }
 
 .img3{
-    background-image: url(../img/cleaning/mice.png);
+    background-image: url(../img/cleaning/mice.jpg);
 }
 
 .img4{
-    background-image: url(../img/cleaning/incinorator.png);
+    background-image: url(../img/cleaning/incinorator.jpg);
 }
 
 .img5{
-    background-image: url(../img/cleaning/rats.png);
+    background-image: url(../img/cleaning/rats.jpg);
 }
 
 p{
@@ -182,7 +182,7 @@ p{
 section#newsletter{
     height: 82.5vh;
     width:110%;
-    background-image: url(../img/Untitled-2.png);
+    background-image: url(../img/Untitled-2.jpg);
     transform: translate(-1vw,1.69vh);
     background-attachment: fixed;
   background-position: center;
@@ -229,7 +229,7 @@ h6{
 
 .signup:hover{
     color:white;
-    background-image: url(../img/Untitled-2.png);
+    background-image: url(../img/Untitled-2.jpg);
     border: 5px solid white;
     animation: stuff 2s
     

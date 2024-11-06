@@ -97,7 +97,7 @@ section#opener_img {
     display: inline-flex;
     width: 75%;
     height: 100%;
-    background-image: url(../img/home/safety_home_enhanced.png);
+    background-image: url(../img/home/safety_home_enhanced.jpg);
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -138,7 +138,7 @@ article#main_content {
     /* margin-left: 10vw; */
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/Password.png);
+    background-image: url(../img/safety/Password.jpg);
     background-size: cover;
     background-position: center;
 
@@ -148,7 +148,7 @@ article#main_content {
 .section2{
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/voice.png);
+    background-image: url(../img/safety/voice.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -156,7 +156,7 @@ article#main_content {
 .section3{
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/fire_alarm.png);
+    background-image: url(../img/safety/fire_alarm.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -165,7 +165,7 @@ article#main_content {
     /* margin-left: 10vw; */
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/water_sprinkler.png);
+    background-image: url(../img/safety/water_sprinkler.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -173,7 +173,7 @@ article#main_content {
 .section5{
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/water_rats.png);
+    background-image: url(../img/safety/water_rats.jpg);
     background-size: cover;
     background-position: center;
     /* margin-right: 10vw; */
@@ -182,7 +182,7 @@ article#main_content {
 .section6{
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/robots_chem.png);
+    background-image: url(../img/safety/robots_chem.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -191,7 +191,7 @@ article#main_content {
     /* margin-left: 10vw; */
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/robot_snakes.png);
+    background-image: url(../img/safety/robot_snakes.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -199,7 +199,7 @@ article#main_content {
 .section8{
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/curtains.png);
+    background-image: url(../img/safety/curtains.jpg);
     background-size: cover;
     background-position: center;
     /* margin-right: 10vw; */
@@ -208,7 +208,7 @@ article#main_content {
 .section9{
     width:30%;
     height: 30%;
-    background-image: url(../img/safety/windors_doors.png);
+    background-image: url(../img/safety/windors_doors.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -360,7 +360,7 @@ h2{
 section#newsletter{
     height: 82.5vh;
     width:110%;
-    background-image: url(../img/Untitled-2.png);
+    background-image: url(../img/Untitled-2.jpg);
     transform: translate(-1vw,1.69vh);
     background-attachment: fixed;
   background-position: center;
@@ -407,7 +407,7 @@ h6{
 
 .signup:hover{
     color:white;
-    background-image: url(../img/Untitled-2.png);
+    background-image: url(../img/Untitled-2.jpg);
     border: 5px solid white;
     animation: stuff 2s
     

@@ -95,7 +95,7 @@ section#opener_img {
     display: inline-flex;
     width: 75%;
     height: 100%;
-    background-image: url(../img/home/convience_home.png);
+    background-image: url(../img/home/convience_home.jpg);
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -150,7 +150,7 @@ p{
 }
 
 .div_img{
-    background-image: url(../img/convience/line_across.png);
+    background-image: url(../img/convience/line_across.jpg);
     margin-top: 10vh;
     height: 20vh;
     width: 98.99%;
@@ -161,7 +161,7 @@ p{
 }
 
 .div_img2{
-    background-image: url(../img/convience/line_across2.png);
+    background-image: url(../img/convience/line_across2.jpg);
     margin-top: 10vh;
     height: 20vh;
     width: 98.99%;
@@ -180,7 +180,7 @@ p{
 section#newsletter{
     height: 82.5vh;
     width:110%;
-    background-image: url(../img/Untitled-2.png);
+    background-image: url(../img/Untitled-2.jpg);
     transform: translate(-1vw,1.69vh);
     background-attachment: fixed;
   background-position: center;
@@ -227,7 +227,7 @@ h6{
 
 .signup:hover{
     color:white;
-    background-image: url(../img/Untitled-2.png);
+    background-image: url(../img/Untitled-2.jpg);
     border: 5px solid white;
     animation: stuff 2s
     
