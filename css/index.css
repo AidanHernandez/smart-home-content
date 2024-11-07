@@ -707,26 +707,61 @@ a.nav_elements{
 }
 
 /* resize */
-@media screen and (max-width:710px) {
+@media screen and (max-width:520px) {
     body{
         overflow-x: hidden;
     }
+    header{
+        margin-left: 5%;
+    }
+    header#home.flex{
+        height: 20%;
+    }
     .header-left {
-        height: 90%;
+        height: 35.8vh;
         font-size: 13px;
         width: 65%;
+        background-position: center;
     }
 
     .header-right {
         height: 90.7%;
         width: 35%;
+        background-position: center;
     }
 
     .safety, .cleaning, .convenience {
         font-size: 17px;
     }
 
-    h2.name{
-        font-size: 25px;
+    .invisibleLink, .invisibleLink2, .invisibleLink3{
+        height: calc(35%/3);
+        width: 35%;
     }
+
+    .price_left{
+        top:30%;
+        height: fit-content;
+    }
+
+    h2.name{
+        height: fit-content;
+        font-size: 20px;
+    }
+    h3.money{
+        font-size: 20px;
+    }
+    p.Est{
+        font-size: 12px;
+    }
+    p.bed_bath{
+        margin-left: 10%;
+        font-size: 12px;
+    }
+
+
+
+
+
+
   }
