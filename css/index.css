@@ -712,10 +712,11 @@ a.nav_elements{
         overflow-x: hidden;
     }
     header{
-        margin-left: 5%;
+        width: 120vw;
     }
     header#home.flex{
         height: 20%;
+        width: 120vw;
     }
     .header-left {
         height: 35.8vh;
@@ -739,29 +740,48 @@ a.nav_elements{
         width: 35%;
     }
 
+    header#price.flex_price{
+        height: fit-content;
+        width: 120vw;
+    }
+
     .price_left{
         top:30%;
         height: fit-content;
     }
 
     h2.name{
+    
         height: fit-content;
-        font-size: 20px;
+        font-size: 17px;
     }
     h3.money{
-        font-size: 20px;
+        font-size: 15px;
     }
     p.Est{
         font-size: 12px;
+        margin-right: 10%;
     }
     p.bed_bath{
-        margin-left: 10%;
+        /* margin-left: 10%; */
         font-size: 12px;
     }
 
+    section#buy.img_buy{
+        width: 120vw;
+    }
+    
+    button.now{
+        font-size: 25px;
+        width: 30%;
+    }
 
+    button.learn{
+        font-size: 25px;
+        width: 30%;
+    }
 
-
+    
 
 
   }
