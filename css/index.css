@@ -728,7 +728,7 @@ a.nav_elements{
 
     .header-right {
         height: 34.75vh;
-        width: 35%;
+        width: 33%;
         background-position: center;
     }
 
@@ -784,8 +784,49 @@ a.nav_elements{
         font-size: 20px;
         width: 30%;
     }
+    
+    .similar_houses{
+       font-size: 25px;
+    }
+    section#similar{
+        background-color: rgba(250, 245, 240, 1);
+        width: 100%;
+        color: #402309;
+    }
 
+    .cards {
+        display: inline-flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        margin-top: 5vh;
+        
+    }
+    
+    
+    article#cards {
+        height: 30vh;
+        width:100%;
+    }
+    
+    .card1, .card2, .card3{
+        width: 32%;
+    }
+    
+    .cards_p{
+        width:95%;
+        margin-left: 5%;
+    }
+    
+    button.card_learn{
+        font-size: 5px;
+        width:40%;
+        height: 10%;
+        margin-left: 30%;
+        margin-top: 5%;
+        align-content: flex-end;
+    }
 
-
-
+    p.cards_p{
+        font-size: 6px;
+    }
   }
