@@ -708,6 +708,7 @@ a.nav_elements{
 
 /* resize */
 @media screen and (max-width:520px) {
+    
     body{
         overflow-x: hidden;
     }
@@ -853,7 +854,7 @@ a.nav_elements{
 
     .svg{
         
-        scale: 0.6;
+        scale: 0.5;
     }
 
     #end.footer{
